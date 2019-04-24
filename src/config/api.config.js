@@ -1,0 +1,1 @@
+export const API_IDSOCIAL = "https://api-idsocialapp.herokuapp.com/"

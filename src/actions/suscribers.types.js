@@ -1,0 +1,1 @@
+export const CREATE_SUSCRIBER = 'CREATE_SUSCRIBER'
