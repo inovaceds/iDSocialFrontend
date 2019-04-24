@@ -3,7 +3,7 @@ import { CREATE_SUSCRIBER } from './suscribers.types';
 import { API_IDSOCIAL } from '../config/api.config';
 
 export const createSuscriber = (suscriber) => async dispatch => {
-    const response = await axios.post(API_IDSOCIAL + 'productos', suscriber);
+    const response = await axios.post(API_IDSOCIAL + 'suscribers', suscriber);
     dispatch({
         type: CREATE_SUSCRIBER,
         payload: response.data
