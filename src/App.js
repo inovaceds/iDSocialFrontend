@@ -10,11 +10,9 @@ function App() {
     <Provider store={store}>
     <Router>
       <React.Fragment>
-         <div className="container">
           <Switch>
             <Route exact path="/" component={NewSuscriber} />
           </Switch>
-         </div>
       </React.Fragment>
     </Router>
   </Provider>

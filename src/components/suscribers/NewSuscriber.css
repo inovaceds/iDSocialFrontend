@@ -1,0 +1,42 @@
+.containerForm{
+    background-color: #0B2239;
+    height: 100vh;
+
+}
+
+.imgLogo {
+    width: 310px;
+    height: 100px;
+}
+
+.subtitle{
+    font-family: Typewritter;
+    color: #39A2AE;
+}
+
+.inputSuscriber{
+    background-color: rgba(241, 249, 255, 0.1) !important;
+    border: 1px solid #979797 !important;
+} 
+
+::-webkit-input-placeholder {
+    color: white;
+    font-size: 13px;
+    font-family: Typewritter;
+    text-align: center
+  }
+  ::-moz-placeholder {
+    color: white;
+    font-family: Typewritter;
+    text-align: center
+  }
+  :-ms-input-placeholder {
+    color: white;
+    font-family: Typewritter;
+    text-align: center
+  }
+  ::placeholder {
+    color: white;
+    font-family: Typewritter;
+    text-align: center
+  }

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import {createSuscriber} from '../../actions/suscribers.actions'
+import './NewSuscriber.css'
 
 class NewSuscriber extends Component {
     state = {
@@ -28,12 +29,20 @@ class NewSuscriber extends Component {
     
     render() {
         return (
-            <div>
-                <h1>Nuevo suscriptor</h1>
-                <div className="form-group">
-                  <input onChange={this.emailSuscriber} type="text" className="form-control" name="" id="" aria-describedby="helpId" placeholder=""/>
+            <div className="containerForm">
+                <div className="container h-100">
+                    <div className="row justify-content-center align-items-center h-100">
+                        <div className="text-center">
+                            <img className="imgLogo" src={require('../../assets/logo.png')}/>
+                            <br/><br/>
+                            <span className="subtitle">¡Atrévete a ser de las primeras personas en probarla!</span>
+                            <br/><br/>
+                            <input onChange={this.emailSuscriber} type="text" className="form-control inputSuscriber" name="" id="" aria-describedby="helpId" placeholder="Correo electrónico"/>
+                            <br/>
+                            <button onClick={this.newSuscriber} type="button" className="btn btn-green">SUSCRIBIRME</button>
+                        </div>
+                    </div>
                 </div>
-                <button onClick={this.newSuscriber} type="button" className="btn btn-outline-primary">SUSCRIBIRME</button>
             </div>
         );
     }

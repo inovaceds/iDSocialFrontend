@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Typewritter';
+    src: url('./assets/typewritter.ttf');
+}
+
+.btn-green{
+    color: #78C932 !important;
+    font-size: 18px !important;
+    font-family: Typewritter !important;
+    text-align: center !important
+} 
+
+.form-control:focus {
+    box-shadow: none !important;
+}
+
+.btn:focus, .btn.focus {
+    box-shadow: none !important;
+}
+
+.btn:hover {
+    color: #39A2AE !important;
+    text-decoration: none;
+}
